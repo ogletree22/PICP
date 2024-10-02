@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #0D1117; /* The extracted color */
     margin: 0;
     height: 100vh;
     display: flex;
@@ -13,6 +13,6 @@ body {
 }
 
 img {
-    max-width: 3in;
-    height: auto;
+    width: 3in; /* Set the width to 3 inches */
+    height: auto; /* Adjust the height automatically to maintain the aspect ratio */
 }
