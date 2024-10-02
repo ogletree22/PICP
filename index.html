@@ -3,12 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Policy Intelligence</title>
+    <title>Policy Intelligence Search</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <img src="image.png" alt="Policy Intelligence Logo" class="logo">
+    </header>
+
     <div class="container">
-        <img src="Policy Intelligence Logo w Slogan.png" alt="Policy Intelligence Logo">
+        <aside class="filter-area">
+            <h2>Filter search results</h2>
+            <div class="filter">
+                <h3>Jurisdiction</h3>
+                <label><input type="checkbox"> CARB (3057)</label><br>
+                <label><input type="checkbox"> Texas (1244)</label><br>
+                <label><input type="checkbox"> Washington (48)</label><br>
+                <label><input type="checkbox"> Colorado (29)</label>
+            </div>
+            <div class="filter">
+                <h3>Type</h3>
+                <label><input type="checkbox"> Legislation (7111)</label><br>
+                <label><input type="checkbox"> Regulation (265)</label>
+            </div>
+        </aside>
+
+        <main class="search-area">
+            <div class="search-bar">
+                <input type="text" placeholder="Search documents..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+
+            <div class="results">
+                <p>1-10 of about 7,370 recommended documents</p>
+                <ul>
+                    <li><a href="#">Document 1 Title</a><br> Short description of document 1.</li>
+                    <li><a href="#">Document 2 Title</a><br> Short description of document 2.</li>
+                    <li><a href="#">Document 3 Title</a><br> Short description of document 3.</li>
+                    <li><a href="#">Document 4 Title</a><br> Short description of document 4.</li>
+                    <li><a href="#">Document 5 Title</a><br> Short description of document 5.</li>
+                </ul>
+            </div>
+        </main>
     </div>
 </body>
 </html>
